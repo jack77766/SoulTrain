@@ -4,4 +4,20 @@
 
 .title-format {
     margin: 25px auto;
+    text-align: center;
+}
+
+.social {
+    float: right;
+    margin:20px 20px;
+    color: blue;
+}
+
+.merri {
+    font-family: 'Merriweather', serif;
+}
+
+.form-format {
+    width:50%; 
+    margin: 25px auto;
 }

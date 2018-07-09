@@ -26,6 +26,26 @@ app.get('/comunidades_amigas', function(req, res) {
 });
 
 
+//PROGRAMAS ROUTE
+app.get('/programas', function(req, res) {
+   res.render('programas'); 
+});
+
+//CONTACTENOS ROUTE
+app.get('/contactenos', function(req, res) {
+   res.render('contactenos'); 
+});
+
+//DONE AQUI ROUTE
+app.get('/done_aqui', function(req, res){
+   res.render('done_aqui'); 
+});
+
+//BLOG COMUNITARIO ROUTE
+app.get('/blog_comunitario', function(req, res) {
+   res.render('blog_comunitario'); 
+});
+
 
 //Server
 app.listen(process.env.PORT, process.env.IP, function(){
