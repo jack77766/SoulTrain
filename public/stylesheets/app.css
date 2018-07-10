@@ -5,6 +5,7 @@
 .title-format {
     margin: 25px auto;
     text-align: center;
+
 }
 
 .social {
@@ -20,4 +21,12 @@
 .form-format {
     width:50%; 
     margin: 25px auto;
+}
+
+.card {
+    margin:20px auto;
+}
+
+.source {
+    font-family: 'Source Sans Pro', sans-serif;
 }
